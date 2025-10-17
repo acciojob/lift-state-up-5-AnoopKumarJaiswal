@@ -7,7 +7,6 @@ const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   return (
     <div>
-        {/* Do not remove the main div */}
         {isLoggedIn ? "You are logged in!":<Child  isLoggedIn = {isLoggedIn} setIsLoggedIn = {setIsLoggedIn}/>}
     </div>
   )
